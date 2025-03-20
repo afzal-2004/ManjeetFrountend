@@ -14,10 +14,10 @@ export const Index = () => {
       <Routes>
         <Route path="/" element={<MainLayout />}>
           <Route path={""} element={<Home />} />
-          <Route path={"about"} element={<About />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="Collection" element={<Collection />} />
-          <Route path="cart" element={<Cart />} />
+          <Route path={"/about"} element={<About />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/Collection" element={<Collection />} />
+          <Route path="/cart" element={<Cart />} />
         </Route>
         <Route path="/login" element={<Login />} />
         <Route path="/signin" element={<Register />} />
